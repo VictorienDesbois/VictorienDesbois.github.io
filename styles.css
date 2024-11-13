@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #0073e6;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    background: #333;
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px; /* Adds space above the menu */
+    padding-bottom: 20px; /* Adds space below the menu */
+}
+
+nav ul li {
+    display: inline-block; /* Aligns the list items horizontally */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px 40px; /* Top and bottom padding is 10px, left and right padding is 40px */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #fff; /* White background on hover */
+    color: #333; /* Dark text color when hovered */
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.skills-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skills-list li {
+    background: none; /* Remove the background color */
+    color: #333; /* Set the text color to a standard color */
+    padding: 5px 0; /* Adjust padding for spacing between items */
+    margin: 0; /* Remove margins for a cleaner look */
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
